@@ -7,5 +7,7 @@ tabela = pd.read_csv('ClientesBanco.csv', encoding='iso-8859-1')
 
 """Excluindo coluna CLIENTNUM"""
 tabela = tabela.drop("CLIENTNUM", axis=1)
+print(tabela.dtypes)
+tabela.info()
 
-print(tabela.head())
+# print(tabela.head())
