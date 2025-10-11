@@ -2,6 +2,8 @@
 Este módulo lê um arquivo CSV para análise.
 """
 import pandas as pd
+import plotly.express as px
+
 
 # Exibir todas as colunas e linhas
 pd.set_option("display.max_columns", None)
@@ -28,5 +30,13 @@ print(qtde_categoria)
 
 qtde_categoria_perc = tabela["Categoria"].value_counts(normalize=True)
 print(qtde_categoria_perc)
+
+# Análise das várias formas do motivo de cancelamento
+
+# - Olhar a comparação entre Clientes e Cancelados em cada uma das colunas
+# procurando novos insights
+
+histograma = px.histogram(tabela, x="Idade", color="Categoria")
+histograma.show()
 # for coluna in tabela.columns:
 #     if tabela[coluna].dtype == 'object':
