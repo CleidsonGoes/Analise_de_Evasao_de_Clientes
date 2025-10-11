@@ -1,5 +1,5 @@
 """
-Este módulo lê um arquivo CSV e exibe suas primeiras linhas.
+Este módulo lê um arquivo CSV para análise.
 """
 import pandas as pd
 
@@ -18,9 +18,15 @@ tabela = tabela.dropna()
 tabela.info()
 # print(tabela.head())
 
+# Exibição de um resumo estatístico das colunas numéricas da base de dados
 print(tabela.describe().round(1))
 
-# Exibir todas as colunas e linhas
+# Avaliação entre Clientes X Cancelados
 
+qtde_categoria = tabela["Categoria"].value_counts()
+print(qtde_categoria)
+
+qtde_categoria_perc = tabela["Categoria"].value_counts(normalize=True)
+print(qtde_categoria_perc)
 # for coluna in tabela.columns:
 #     if tabela[coluna].dtype == 'object':
