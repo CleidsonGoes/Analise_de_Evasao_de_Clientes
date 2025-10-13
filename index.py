@@ -36,7 +36,9 @@ print(qtde_categoria_perc)
 # - Olhar a comparação entre Clientes e Cancelados em cada uma das colunas
 # procurando novos insights
 
-histograma = px.histogram(tabela, x="Idade", color="Categoria")
-histograma.show()
+for coluna in tabela:
+    histograma = px.histogram(tabela, x=coluna, color="Categoria")
+    histograma.show()
+
 # for coluna in tabela.columns:
 #     if tabela[coluna].dtype == 'object':
