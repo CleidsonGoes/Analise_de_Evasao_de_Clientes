@@ -40,5 +40,13 @@ for coluna in tabela:
     histograma = px.histogram(tabela, x=coluna, color="Categoria")
     histograma.show()
 
-# for coluna in tabela.columns:
-#     if tabela[coluna].dtype == 'object':
+# Informações retiradas da análise
+
+# Me parece que quanto mais produtos contratatos
+# um cliente tem, menor a chance dele cancelar
+
+# Quanto mais transações e quanto maior o valor
+# de transação, menor as chances de cancelar
+
+# Quanto maior a quantidade de contatos que a pessoa
+# teve que fazer, maior as chances de cancelar
