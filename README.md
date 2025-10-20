@@ -1,13 +1,12 @@
-<h1 align="center">📊 Análise de Evasão de Clientes Bancários</h1> <p align="center"> <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-orange?logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Plotly-Interactive%20Charts-9cf?logo=plotly&logoColor=white" /> <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-success" /> </p>
+<h1 align="center">📊 Análise de Evasão de Clientes Bancários</h1> <p align="center"> <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-orange?logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Plotly-Interactive%20Charts-9cf?logo=plotly&logoColor=white" /> <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-success" /> </p><br><br>
 
-🧠 Sobre o Projeto
+🧠 **Sobre o Projeto**<br>
 
 Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) com foco em identificar os fatores que influenciam o cancelamento de contas de clientes bancários.
 
-Através do Python, o script lê e processa uma base de dados em CSV, realiza limpeza e tratamento, gera estatísticas descritivas e visualizações interativas com Plotly Express, permitindo descobrir padrões e comportamentos relevantes entre clientes ativos e cancelados.
+Através do Python, o script lê e processa uma base de dados em CSV, realiza limpeza e tratamento, gera estatísticas descritivas e visualizações interativas com Plotly Express, permitindo descobrir padrões e comportamentos relevantes entre clientes ativos e cancelados.<br><br>
 
-
-🧩 Tecnologias Utilizadas.
+🧩 **Tecnologias Utilizadas.**<br>
 
 🐍 Python 3.10+
 
@@ -15,10 +14,9 @@ Através do Python, o script lê e processa uma base de dados em CSV, realiza li
 
 📊 Plotly Express — Criação de gráficos interativos
 
-💻 VS Code / Jupyter Notebook (recomendado para execução)
+💻 VS Code / Jupyter Notebook (recomendado para execução)<br><br>
 
-
-⚙️ Etapas da Análise
+⚙️ **tapas da Análise**<br>
 
 Leitura dos Dados
 
@@ -40,10 +38,9 @@ Contagem e percentual de clientes por categoria (ativos x cancelados).
 
 Visualização Gráfica
 
-Criação automática de histogramas interativos para todas as colunas do dataset, permitindo comparar clientes ativos e cancelados em cada variável.
+Criação automática de histogramas interativos para todas as colunas do dataset, permitindo comparar clientes ativos e cancelados em cada variável.<br><br>
 
-
-💡 Principais Insights
+💡 **Principais Insights**<br>
 
 🔹 Clientes com mais produtos contratados tendem a não cancelar suas contas.
 
@@ -51,9 +48,9 @@ Criação automática de histogramas interativos para todas as colunas do datase
 
 🔹 Mais contatos com o suporte estão relacionados a maior probabilidade de cancelamento, possivelmente indicando insatisfação.
 
-Essas descobertas podem auxiliar a instituição a desenvolver estratégias de retenção e melhorar o relacionamento com os clientes.
+Essas descobertas podem auxiliar a instituição a desenvolver estratégias de retenção e melhorar o relacionamento com os clientes.<br><br>
 
-▶️ Como Executar o Projeto
+▶️ **Como Executar o Projeto**<br>
 1️⃣ Instale as dependências:
 pip install pandas plotly
 
@@ -64,10 +61,9 @@ python index.py
 
 Estatísticas e informações gerais serão exibidas no terminal.
 
-Gráficos interativos serão abertos automaticamente no navegador.
+Gráficos interativos serão abertos automaticamente no navegador.<br><br>
 
-
-📁 Estrutura do Projeto
+📁 **Estrutura do Projeto**<br>
 
 > ```
 > 📦 Analise_de_Evasao_de_Clientes  
@@ -75,8 +71,9 @@ Gráficos interativos serão abertos automaticamente no navegador.
 > ├── 📊 ClientesBanco.csv  
 > └── 📘 README.md  
 > ```
+<br><br>
 
-✨ Autor
+✨ **Autor**<br>
 
 Cleidson Goes
 📍 Salvador, BA
