@@ -5,7 +5,7 @@ Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA
 
 Através do Python, o script lê e processa uma base de dados em CSV, realiza limpeza e tratamento, gera estatísticas descritivas e visualizações interativas com Plotly Express, permitindo descobrir padrões e comportamentos relevantes entre clientes ativos e cancelados.
 
-🧩 Tecnologias Utilizadas
+🧩 Tecnologias Utilizadas.
 
 🐍 Python 3.10+
 
