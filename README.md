@@ -83,7 +83,7 @@ Cleidson Goes
   <a href="https://github.com/cleidsongoes">
     <img src="https://img.shields.io/badge/GitHub-cleidsongoes-black?logo=github" alt="GitHub Badge"/>
   </a>
-  <a href="https://www.linkedin.com/in/cleidson-goes/">
+  <a href="https://www.linkedin.com/in/cleidson-jorge-s-goes/">
     <img src="https://img.shields.io/badge/LinkedIn-Cleidson%20Goes-blue?logo=linkedin" alt="LinkedIn Badge"/>
   </a>
 </p>
