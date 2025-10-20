@@ -18,27 +18,27 @@ Através do Python, o script lê e processa uma base de dados em CSV, realiza li
 
 ⚙️ **Etapas da Análise**
 
-Leitura dos Dados
+🔹 Leitura dos Dados
 
-Importação do arquivo ClientesBanco.csv com pandas.read_csv().
+🔹 Importação do arquivo ClientesBanco.csv com pandas.read_csv().
 
-Configuração de exibição completa de colunas e linhas.
+🔹 Configuração de exibição completa de colunas e linhas.
 
-Limpeza e Preparação
+🔹 Limpeza e Preparação
 
-Remoção da coluna desnecessária CLIENTNUM.
+🔹 Remoção da coluna desnecessária CLIENTNUM.
 
-Exclusão de registros com valores ausentes (NaN).
+🔹 Exclusão de registros com valores ausentes (NaN).
 
-Análise Estatística
+🔹 Análise Estatística
 
-Geração de estatísticas descritivas com describe().
+🔹 Geração de estatísticas descritivas com describe().
 
-Contagem e percentual de clientes por categoria (ativos x cancelados).
+🔹 Contagem e percentual de clientes por categoria (ativos x cancelados).
 
-Visualização Gráfica
+🔹 Visualização Gráfica
 
-Criação automática de histogramas interativos para todas as colunas do dataset, permitindo comparar clientes ativos e cancelados em cada variável.<br><br>
+🔹 Criação automática de histogramas interativos para todas as colunas do dataset, permitindo comparar clientes ativos e cancelados em cada variável.<br><br>
 
 💡 **Principais Insights**
 
