@@ -1,12 +1,12 @@
 <h1 align="center">📊 Análise de Evasão de Clientes Bancários</h1> <p align="center"> <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-orange?logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Plotly-Interactive%20Charts-9cf?logo=plotly&logoColor=white" /> <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-success" /> </p><br><br>
 
-🧠 **Sobre o Projeto**<br>
+🧠 **Sobre o Projeto**
 
 Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) com foco em identificar os fatores que influenciam o cancelamento de contas de clientes bancários.
 
 Através do Python, o script lê e processa uma base de dados em CSV, realiza limpeza e tratamento, gera estatísticas descritivas e visualizações interativas com Plotly Express, permitindo descobrir padrões e comportamentos relevantes entre clientes ativos e cancelados.<br><br>
 
-🧩 **Tecnologias Utilizadas.**<br>
+🧩 **Tecnologias Utilizadas.**
 
 🐍 Python 3.10+
 
@@ -16,7 +16,7 @@ Através do Python, o script lê e processa uma base de dados em CSV, realiza li
 
 💻 VS Code / Jupyter Notebook (recomendado para execução)<br><br>
 
-⚙️ **tapas da Análise**<br>
+⚙️ **Etapas da Análise**
 
 Leitura dos Dados
 
@@ -40,7 +40,7 @@ Visualização Gráfica
 
 Criação automática de histogramas interativos para todas as colunas do dataset, permitindo comparar clientes ativos e cancelados em cada variável.<br><br>
 
-💡 **Principais Insights**<br>
+💡 **Principais Insights**
 
 🔹 Clientes com mais produtos contratados tendem a não cancelar suas contas.
 
@@ -50,7 +50,8 @@ Criação automática de histogramas interativos para todas as colunas do datase
 
 Essas descobertas podem auxiliar a instituição a desenvolver estratégias de retenção e melhorar o relacionamento com os clientes.<br><br>
 
-▶️ **Como Executar o Projeto**<br>
+▶️ **Como Executar o Projeto**
+
 1️⃣ Instale as dependências:
 pip install pandas plotly
 
@@ -63,7 +64,7 @@ Estatísticas e informações gerais serão exibidas no terminal.
 
 Gráficos interativos serão abertos automaticamente no navegador.<br><br>
 
-📁 **Estrutura do Projeto**<br>
+📁 **Estrutura do Projeto**
 
 > ```
 > 📦 Analise_de_Evasao_de_Clientes  
@@ -73,7 +74,7 @@ Gráficos interativos serão abertos automaticamente no navegador.<br><br>
 > ```
 <br><br>
 
-✨ **Autor**<br>
+✨ **Autor**
 
 Cleidson Goes
 📍 Salvador, BA
