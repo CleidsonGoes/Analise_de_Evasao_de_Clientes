@@ -5,7 +5,7 @@ Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA
 
 Através do Python, o script lê e processa uma base de dados em CSV, realiza limpeza e tratamento, gera estatísticas descritivas e visualizações interativas com Plotly Express, permitindo descobrir padrões e comportamentos relevantes entre clientes ativos e cancelados.
 
-🧩 Tecnologias Utilizadas
+🧩 Tecnologias Utilizadas.
 
 🐍 Python 3.10+
 
@@ -63,15 +63,24 @@ Estatísticas e informações gerais serão exibidas no terminal.
 Gráficos interativos serão abertos automaticamente no navegador.
 
 📁 Estrutura do Projeto
-📦 Analise_de_Evasao_de_Clientes
-├── 📄 index.py
-├── 📊 ClientesBanco.csv
-└── 📘 README.md
+
+> ```
+> 📦 Analise_de_Evasao_de_Clientes  
+> ├── 📄 index.py  
+> ├── 📊 ClientesBanco.csv  
+> └── 📘 README.md  
+> ```
 
 ✨ Autor
 
 Cleidson Goes
 📍 Salvador, BA
-💻 Desenvolvedor Web Full Stack & Analista de Dados em formação
-🔗 LinkedIn
- | GitHub
+💻 Analista de BI e Analista de Dados em formação
+<p align="center">
+  <a href="https://github.com/cleidsongoes">
+    <img src="https://img.shields.io/badge/GitHub-cleidsongoes-black?logo=github" alt="GitHub Badge"/>
+  </a>
+  <a href="https://www.linkedin.com/in/cleidson-goes/">
+    <img src="https://img.shields.io/badge/LinkedIn-Cleidson%20Goes-blue?logo=linkedin" alt="LinkedIn Badge"/>
+  </a>
+</p>
